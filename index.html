@@ -61,7 +61,53 @@
     <main class="my-3 lg:mt-20">
       <!-- Image Section -->
       <section id="banner" class="flex flex-col max-w-7xl mx-auto lg:flex-row">
-        <div id="images" class="lg:flex-1 items-center">
+        <div id="images" class="flex lg:flex-1 items-center justify-center">
+          <button
+            id="left_btn"
+            class="absolute left-0 md:hidden z-50 w-8 h-8 bg-white rounded-full"
+          >
+            <svg
+              class="mx-2"
+              style="
+                width: 1em;
+                height: 1em;
+                vertical-align: middle;
+                fill: currentColor;
+                overflow: hidden;
+              "
+              viewBox="0 0 1024 1024"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M887.3 502.5v23.7l15.8-11.8z" />
+              <path
+                d="M675.3 959.7l121.4-121.5-326.5-326.3 326.2-326.1L675 64.3 227.3 511.9z"
+              />
+            </svg>
+          </button>
+          <button
+            id="right_btn"
+            class="absolute right-0 md:hidden z-50 w-8 h-8 bg-white rounded-full"
+          >
+            <svg
+              class="mx-2"
+              style="
+                width: 1em;
+                height: 1em;
+                vertical-align: middle;
+                fill: currentColor;
+                overflow: hidden;
+              "
+              viewBox="0 0 1024 1024"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M887.3 502.5v23.7l15.8-11.8z" />
+              <path
+                d="M348.7 959.7L227.3 838.2l326.5-326.3-326.2-326.1L349 64.3l447.7 447.6z"
+              />
+            </svg>
+          </button>
           <div class="grid grid-cols-4 lg:w-96 gap-4 mx-auto">
             <div
               class="col-span-full overflow-hidden aspect-square rounded-xl"
