@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneakers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="px-4 h-screen">
+    <header
+      class="max-w-7xl mx-auto flex flex-row items-center border-b pb-6 border-slate-500 pt-2"
+    >
+      <div class="flex items-center gap-3">
+        <button class="lg:invisible">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="1em"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </button>
+        <a href="" class="text-3xl font-serif font-bold text-blue-950"
+          >Sneakers</a
+        >
+      </div>
+      <nav class="flex-1 px-8">
+        <ul class="hidden lg:flex gap-4">
+          <li class="hover:text-blue-500"><a href="#">Collections</a></li>
+          <li class="hover:text-blue-500"><a href="#">Men</a></li>
+          <li class="hover:text-blue-500"><a href="#">Women</a></li>
+          <li class="hover:text-blue-500"><a href="#">About</a></li>
+          <li class="hover:text-blue-500"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="flex gap-4 px-8 justify-center items-center">
+        <button class="cart">
+          <svg
+            class="fill-blue-400 hover:hover:fill-blue-900"
+            xmlns="http://www.w3.org/2000/svg"
+            height="1em"
+            viewBox="0 0 576 512"
+          >
+            <path
+              d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+            />
+          </svg>
+        </button>
+        <div
+          class="user rounded-full overflow-hidden w-10 border hover:border-blue-600"
+        >
+          <img
+            src="https://res.cloudinary.com/ddffgfse1/image/upload/v1697623391/Sneakers/talfptl9xk0yftb5zglf.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <main class="my-3 lg:mt-20">
+      <!-- Image Section -->
+      <section id="banner" class="flex flex-col max-w-7xl mx-auto lg:flex-row">
+        <div id="images" class="lg:flex-1 items-center">
+          <div class="grid grid-cols-4 lg:w-96 gap-4 mx-auto">
+            <div
+              class="col-span-full overflow-hidden aspect-square rounded-xl"
+              id="main_img"
+            >
+              <img
+                class="main"
+                src="https://res.cloudinary.com/ddffgfse1/image/upload/ar_1:1,c_crop/Sneakers/lafxnjvllnxmelcdtcqo.jpg"
+                alt=""
+              />
+            </div>
+            <div class="max-lg:hidden overflow-hidden aspect-square rounded-xl">
+              <img
+                class="sub"
+                src="https://res.cloudinary.com/ddffgfse1/image/upload/ar_1:1,c_crop/Sneakers/lafxnjvllnxmelcdtcqo.jpg"
+                alt=""
+              />
+            </div>
+            <div class="max-lg:hidden overflow-hidden aspect-square rounded-xl">
+              <img
+                class="sub"
+                src="https://res.cloudinary.com/ddffgfse1/image/upload/ar_1:1,c_crop/Sneakers/vbklzrp42gsa5cdjzwv9.jpg"
+                alt="Loading"
+              />
+            </div>
+            <div class="max-lg:hidden overflow-hidden aspect-square rounded-xl">
+              <img
+                class="sub"
+                src="https://res.cloudinary.com/ddffgfse1/image/upload/ar_1:1,c_crop,g_south/Sneakers/zztpkkcjb7bc3rtfnnfv.jpg"
+                alt="Loading"
+              />
+            </div>
+            <div class="max-lg:hidden overflow-hidden aspect-square rounded-xl">
+              <img
+                class="sub"
+                src="https://res.cloudinary.com/ddffgfse1/image/upload/ar_1:1,c_crop/v1697621455/Sneakers/p6szb7cpdf4gg4igg01y.jpg"
+                alt="Loading"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 mx-10 lg:mx-20">
+          <div class="h-full mx-0 lg:mx-14 flex flex-col justify-center">
+            <p class="tracking-wider text-blue-400 mt-2">SNEAKERS COMPANY</p>
+            <h1 class="my-2 text-4xl font-bold">
+              Fall Limited Edition Sneakers
+            </h1>
+            <p class="mt-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              esse enim quibusdam nulla, vel nesciunt quos ut nostrum placeat
+              eaque, in corporis rem odio, facere quidem voluptatem accusantium
+              explicabo quae!
+            </p>
+            <div class="price flex justify-between lg:flex-col mt-2">
+              <div class="flex gap-3">
+                <p id="price" class="font-bold text-2xl"></p>
+                <p
+                  class="bg-blue-300 text-blue-600 rounded-lg font-extrabold p-1"
+                >
+                  50%
+                </p>
+              </div>
+              <s id="price2" class="text-gray-400 text-lg lg:mt-1"></s>
+            </div>
+            <div
+              class="cart text-2xl font-bold flex flex-col items-center mt-7 lg:gap-5 lg:flex-row justify-between"
+            >
+              <div
+                class="quantity flex w-full h-12 bg-slate-200 justify-between items-center rounded-lg px-4 text-center lg:w-40"
+              >
+                <div id="decrease" class="aspect-square text-black">
+                  <button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div id="quantity_no"></div>
+                <div id="increase" class="aspect-square">
+                  <button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="add_cart flex justify-center items-center lg:w-64 w-full my-7 bg-blue-400 rounded-lg p-2 shadow-xl hover:shadow-blue-300"
+              >
+                <p class="mr-10 lg:mr-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1em"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+                    />
+                  </svg>
+                </p>
+                <p class="font-medium">Add to cart</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Popup Images -->
+    <dialog class="w-screen h-screen bg-black bg-opacity-75 max-md:w-screen">
+      <div class="flex flex-col justify-center items-center mt-5">
+        <button
+          type="button"
+          id="close"
+          class="rounded-full aspect-square w-10"
+        >
+          <svg
+            class="ml-3 mt-2"
+            width="25"
+            height="25"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+              fill="#fff"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <img class="aspect-square w-4/12 mt-5 rounded-lg" id="img_dialog" src="" alt="" />
+      </div>
+    </dialog>
+    <script>
+      class Process {
+        constructor() {
+          this.increase = document.getElementById("increase");
+          this.decrease = document.getElementById("decrease");
+          this.quantity = document.getElementById("quantity_no");
+          this.q = 0;
+
+          this.priceElement1 = document.getElementById("price");
+          this.priceElement2 = document.getElementById("price2");
+
+          this.show();
+          this.price();
+        }
+        show = () => {
+          this.quantity.innerText = this.q;
+          this.increase.addEventListener("click", () => {
+            if (this.q > 19) {
+              return this.q;
+            }
+            this.q += 1;
+            this.quantity.innerText = this.q;
+          });
+          this.decrease.addEventListener("click", () => {
+            if (this.q <= 0) {
+              return this.q;
+            }
+            this.q -= 1;
+            this.quantity.innerText = this.q;
+          });
+        };
+
+        price = () => {
+          const price = new Intl.NumberFormat("es-US", {
+            currency: "USD",
+            style: "currency",
+          }).format(125);
+          const price2 = new Intl.NumberFormat("es-US", {
+            currency: "USD",
+            style: "currency",
+          }).format(250);
+          this.priceElement1.innerText = price;
+          this.priceElement2.innerText = price2;
+        };
+      }
+      class ImageProcess {
+        constructor() {
+          this.images = document.querySelectorAll("#images img");
+          this.dialog = document.querySelector("dialog");
+          this.closeButton = this.dialog.querySelector("#close");
+          this.index = 1;
+
+          for (const img of this.images) {
+            img.addEventListener("click", (event) => {
+              if (event.target.classList.contains("main")) {
+                this.showDialog(event);
+              }
+              // if (event.target.classList.contains("sub")) {
+              //   this.images[0].src = event.target.src;
+              // }
+            });
+
+            this.CloseDialog();
+          }
+        }
+        showDialog = (event) => {
+          const imagEle = this.dialog.querySelector("#img_dialog");
+          imagEle.src = event.target.src;
+          this.dialog.showModal();
+        };
+
+        CloseDialog = () => {
+          this.closeButton.addEventListener("click", () => {
+            this.dialog.close();
+          });
+        };
+      }
+      const process = new Process();
+      const imageProcess = new ImageProcess();
+    </script>
+  </body>
+</html>
